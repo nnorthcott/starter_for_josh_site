@@ -1,19 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-<meta name="Description" content="Enter your description here"/>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-<link rel="stylesheet" href="responsive.css">
-<title>Title</title>
-</head>
 <body>
     <header class="container-fluid bg1">    
       <nav class="navbar navbar-expand-md navbar-dark">
@@ -49,7 +35,7 @@
             <h1>Games Design For the future</h1>
         </div>
     </header>
-
+<?php get_header();?>
 <section class="container-fluid aboutbg text-center">
     <div class="container">
         <h2>GAMES &amp; LEVEL DESIGNER</h2>
@@ -72,7 +58,7 @@
         </div>
         <div class="row">
             <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="portrait" src="images/port1.jpg">
+                <img class="img-fluid" alt="portrait" src="http://170.187.231.66/~mesh15/wp-content/themes/starter_for_josh_site/images/port1.jpg">
                 <h4 class="article-title">A PORTRAIT</h4>
                 <p class="date">12 December 2020</p>
                 <p class="article-p">STS has never been shy of seeking new terrains of
@@ -82,7 +68,7 @@
                 <a class="readmore" href="#">CONTINUE READING</a>
             </div>
             <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="portrait" src="images/port2.jpg">
+                <img class="img-fluid" alt="portrait" src="http://170.187.231.66/~mesh15/wp-content/themes/starter_for_josh_site/images/port2.jpg">
                 <h4 class="article-title">A MODEL</h4>
                 <p class="date">12 December 2020</p>
                 <p class="article-p">STS has never been shy of seeking new terrains of
@@ -91,7 +77,7 @@
                 <a class="readmore" href="#">CONTINUE READING</a>
             </div>
             <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="portrait" src="images/port3.jpg">
+                <img class="img-fluid" alt="portrait" src="http://170.187.231.66/~mesh15/wp-content/themes/starter_for_josh_site/images/port3.jpg">
                 <h4 class="article-title">A GAMES DESIGN</h4>
                 <p class="date">12 December 2020</p>
                 <p class="article-p">STS has never been shy of seeking new terrains of
@@ -102,22 +88,6 @@
         </div>
     </div>
 </section>
-
-<footer class="container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
-            </div>
-            <div class="col-md-6">
-                <p>Terms and Conditions</p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+<?php get_footer();?>
 </body>
 </html>

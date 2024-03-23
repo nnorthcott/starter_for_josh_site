@@ -91,56 +91,5 @@
         <div class="blocker"></div>
     </div>
 </section>
-
-<section class="container-fluid articlesbg">
-    <div class="container">
-        <div>
-            <h3 class="text-center">LATEST ARTICLES</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="portrait" src="images/port1.jpg">
-                <h4 class="article-title">A PORTRAIT</h4>
-                <p class="date">12 December 2020</p>
-                <p class="article-p">STS has never been shy of seeking new terrains of
-                    investigation. More and more STS scholars are starting to explore and
-                    intervene in the arts. This object of study brings new challenges and opportunities that we want to explore in this session. We would like to gather first of all simply two kinds of knowledge arising from STS study of the arts.
-                </p>
-                <a class="readmore" href="#">CONTINUE READING</a>
-            </div>
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="portrait" src="images/port2.jpg">
-                <h4 class="article-title">A MODEL</h4>
-                <p class="date">12 December 2020</p>
-                <p class="article-p">STS has never been shy of seeking new terrains of
-                    investigation. More and more STS scholars are starting to explore and
-                    intervene in the arts. This object of study brings new challenges and opportunities that we want to explore in this session. We would like to gather first of all simply two kinds of knowledge arising from STS study of the arts.</p>
-                <a class="readmore" href="#">CONTINUE READING</a>
-            </div>
-            <div class="col-md-4 text-center">
-                <img class="img-fluid" alt="portrait" src="images/port3.jpg">
-                <h4 class="article-title">A GAMES DESIGN</h4>
-                <p class="date">12 December 2020</p>
-                <p class="article-p">STS has never been shy of seeking new terrains of
-                    investigation. More and more STS scholars are starting to explore and
-                    intervene in the arts. This object of study brings new challenges and opportunities that we want to explore in this session. We would like to gather first of all simply two kinds of knowledge arising from STS study of the arts.</p>
-                <a class="readmore" href="#">CONTINUE READING</a>
-            </div>
-        </div>
-    </div>
-</section>
-
-<footer class="container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
-            </div>
-            <div class="col-md-6">
-                <p>Terms and Conditions</p>
-            </div>
-        </div>
-    </div>
-</footer>
 </body>
 </html>

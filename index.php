@@ -1,10 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <body>
-        <div class="container tag">
-            <h1>Games Design For the future</h1>
-        </div>
-    </header>
     <?php get_header();?>   <!--  Tells WordPress to include header.php -->
     <section class="container-fluid articlesbg">
             <div class="container">

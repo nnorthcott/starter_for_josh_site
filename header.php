@@ -35,7 +35,7 @@
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
 <body>
-    <header class="container-fluid bg1">   <!-- div for the main image the stretches to the edge of the page- -->
+<header class="container-fluid" style="background-size: cover; background-image: url(<?php the_field('headerbackgroundimage') ?>);">
         <div class="container">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
@@ -64,10 +64,9 @@ wp_nav_menu( array(
 
       </nav> 
    
-        <div class="tag"><!-- div that holds the content in the middle of the page-->
-                  <h1 > Games Design For the Future </h1><!--  the main tag line-->
-  </div>            
-</div><!-- container-->
+      <div class="tag"><!-- div that holds the content in the middle of the page-->
+        <h1><?php the_field('maintagline'); ?></h1>
+              </div><!-- container-->
 
 <!—remove all our css styles and any Javascript code. WordPress automatically calls javascript /jquery elsewhere, calls to javascript are not needed in the header or the footer now- UNLESS you have calls to google or typkit fonts- they can stay-->
 

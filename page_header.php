@@ -34,8 +34,6 @@
 <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico">
 </head>
 <body>
-    <header class="container-fluid smallpage-bg">   <!-- div for the main image the stretches to the edge of the page- -->
-        <div class="container">
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <!-- Brand -->
         <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
@@ -49,13 +47,16 @@
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="#">HOME</a>
+              <a class="nav-link" href="http://170.187.231.66/~mesh15/">HOME</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">PROJECTS</a>
+                <a class="nav-link" href="http://170.187.231.66/~mesh15/?page_id=794">ABOUT</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="http://170.187.231.66/~mesh15/?page_id=792">PROJECTS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">CV</a>
+              <a class="nav-link" href="http://170.187.231.66/~mesh15/?page_id=790">CV</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">CONTACT</a>
@@ -63,13 +64,16 @@
           </ul>
         </div>
       </nav> 
-   
+      <header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+        <div class="container smallpage-tag"><!-- div that holds the content in the middle of the page-->
+        <h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>            
+        </div><!-- container-->
         <div class="container smallpage-tag"><!-- div that holds the content in the middle of the page-->
                   <h1 class="smallpage-title"> Games Design For the Future </h1><!--  the main tag line-->
   </div>            
 </div><!-- container-->
 
-<!—remove all our css styles and any Javascript code. WordPress automatically calls javascript /jquery elsewhere, calls to javascript are not needed in the header or the footer now- UNLESS you have calls to google or typkit fonts- they can stay-->
+<!-- remove all our css styles and any Javascript code. WordPress automatically calls javascript /jquery elsewhere, calls to javascript are not needed in the header or the footer now- UNLESS you have calls to google or typkit fonts- they can stay-->
 
 <!-- very important that this code is added-->
 <?php wp_head(); ?> 
@@ -129,17 +133,5 @@
     </div>
 </section>
 
-<footer class="container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <a class="navbar-brand" href="#"><span class="josh">JOSH</span><span class="orange">WHITKIN</span></a>
-            </div>
-            <div class="col-md-6">
-                <p>Terms and Conditions</p>
-            </div>
-        </div>
-    </div>
-</footer>
 </body>
 </html>

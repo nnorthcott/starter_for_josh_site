@@ -1,10 +1,9 @@
 <?php
     /*
-    Template Name: Projects
+    Template Name: CV
     */
     ?>
-
-    <?php require_once('page_header.php'); ?>
+<?php require_once('page_header.php');?>
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
@@ -47,6 +46,6 @@ $the_query = new WP_Query( $args ); ?>
 </section>
            
      </div>
-    </div><!-- container  -->
-  </div>  <!-- container fluid -->
+    </div>
+  </div>
 <?php get_footer(); ?>

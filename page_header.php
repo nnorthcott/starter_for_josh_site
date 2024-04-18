@@ -4,6 +4,7 @@
 <meta charset="<?php bloginfo('charset'); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/images/favicon.ico.png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -50,21 +51,18 @@
               <a class="nav-link" href="http://170.187.231.66/~mesh15/">HOME</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="http://170.187.231.66/~mesh15/?page_id=794">ABOUT</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="http://170.187.231.66/~mesh15/?page_id=792">PROJECTS</a>
+              <a class="nav-link" href="http://170.187.231.66/~mesh15/?page_id=794">PROJECTS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="http://170.187.231.66/~mesh15/?page_id=790">CV</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
+                <a class="nav-link" href="http://170.187.231.66/~mesh15/?page_id=828">CONTACT</a>
+            </li>
           </ul>
         </div>
       </nav> 
-      <header class="container-fluid" style="background-size:cover; height:40vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
+      <header class="container-fluid" style="background-size:cover; background-repeat:no-repeat; height:60vh; background-image: url(<?php the_field('projectheaderbackgroundimage') ?>);">
         <div class="container smallpage-tag"><!-- div that holds the content in the middle of the page-->
         <h1 class="smallpage-title"><?php the_field('projectsheadertitle'); ?> </h1>            
       </div><!-- container-->
